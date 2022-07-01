@@ -4,6 +4,8 @@
 # Using npm
 npm install --save apps-dictionary
 
+# Using yarn
+yarn add apps-dictionary
 ```
 
 ### Countries
