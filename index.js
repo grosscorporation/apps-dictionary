@@ -8,4 +8,4 @@ const currencies = Object.freeze(Currencies)
 const dictionary = Object.freeze(Dictionary)
 const languages = Object.freeze(Languages)
 
-export { countries, languages, dictionary, currencies }
+module.exports = { countries, languages, dictionary, currencies }
