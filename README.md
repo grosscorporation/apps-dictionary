@@ -14,7 +14,7 @@ yarn add apps-dictionary
 import {countries, currencies, dictionary, languages} from apps-dictionary
 
 /**
- *  country
+ *  []country
  */
 ```
 
@@ -43,7 +43,7 @@ import {countries, currencies, dictionary, languages} from apps-dictionary
 
 ```js
 /**
- *  currency
+ *  []currency
  */
 ```
 
@@ -61,7 +61,7 @@ import {countries, currencies, dictionary, languages} from apps-dictionary
 
 ```js
 /**
- *  language
+ *  []language
  */
 ```
 
