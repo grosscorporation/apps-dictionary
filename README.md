@@ -20,24 +20,31 @@ import {countries, currencies, dictionary, languages} from apps-dictionary
 
 ```json
 {
-	"name": "Andorra",
-	"capital": "Andorra la Vella",
-	"population": "84000",
-	"languages": "ca",
-	"callingCode": "376",
-	"numeric": "020",
-	"timezone": "UTC+01:00",
-	"region": "Europe",
-	"tld": "ad",
+	"name": "Wallis and Futuna",
+	"capital": "Mata Utu",
+	"population": "16025",
+	"languages": "wls,fud,fr-WF",
+	"callingCode": "681",
+	"numeric": "876",
+	"timezone": "UTC+12:00",
+	"region": "Oceania",
+	"tld": "wf",
 	"currency": {
-		"name": "Euro",
-		"symbol": "€",
-		"symbolNative": "€",
+		"name": "Franc",
+		"symbol": "Fr",
+		"symbolNative": "Fr",
 		"decimalDigits": 2,
 		"rounding": 0,
-		"isoCode": "EUR",
-		"namePlural": "euros"
-	}
+		"isoCode": "XPF",
+		"namePlural": "CFP franc"
+	},
+	"countryName": "Wallis and Futuna",
+	"countryShortCode": "WF",
+	"regions": [
+		{ "name": "Alo", "shortCode": "ALO" },
+		{ "name": "Sigave", "shortCode": "SIG" },
+		{ "name": "Wallis", "shortCode": "WAL" }
+	]
 }
 ```
 
