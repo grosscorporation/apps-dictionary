@@ -2859,6 +2859,7 @@
 		"callingCode": "44",
 		"numeric": "826",
 		"tld": "uk",
+		"countryShortCode": "UK",
 		"currency": {
 			"name": "Pound",
 			"symbol": "£",
@@ -4507,7 +4508,8 @@
 		"languages": "sq,sr",
 		"callingCode": "",
 		"numeric": "0",
-		"tld": "",
+		"tld": "xk",
+		"countryShortCode": "XK",
 		"currency": { "name": "Euro", "symbol": "€", "symbolNative": "€", "decimalDigits": 2, "rounding": 0, "isoCode": "EUR", "namePlural": "euros" }
 	},
 	{
@@ -7621,7 +7623,8 @@
 		"languages": "en",
 		"callingCode": "211",
 		"numeric": "728",
-		"tld": "",
+		"tld": "ss",
+		"countryShortCode": "SS",
 		"currency": {
 			"name": "Pound",
 			"symbol": "£",
@@ -7965,6 +7968,7 @@
 		"timezone": "UTC+01:00",
 		"region": "Europe",
 		"tld": "sj",
+		"countryShortCode": "SJ",
 		"currency": {
 			"name": "Krone",
 			"symbol": "Nkr",
