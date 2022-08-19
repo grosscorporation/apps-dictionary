@@ -15,6 +15,7 @@
 	"expenseStatus": ["cancelled", "completed", "failed", "pending", "refunded"],
 	"salaryFrequency": ["daily", "weekly", "monthly", "annually", "onceoff"],
 	"leavePolicy": ["none", "annual", "payoff"],
+	"taxTypes": ["sales", "purchase", "payroll"],
 	"expenseType": ["expense", "voucher", "reimburse"],
 	"gender": ["male", "female", "other"],
 	"documentSize": ["A5", "A4", "A3", "A2"],
