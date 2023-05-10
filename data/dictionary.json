@@ -148,7 +148,7 @@
 		}
 	],
 	"orderStatus": ["draft", "onhold", "accepted", "cancelled"],
-	"paymentMethods": ["cheque", "card", "cash", "paypal", "wireTransfer", "cryptoCurrency", "mobileMoney"],
+	"paymentMethods": ["cash", "card", "cheque", "wireTransfer", "mobileMoney", "other"],
 	"deliveryMethods": ["split", "delivery", "counter", "download", "table", "virtual"],
 	"paymentStatus": ["processed", "cancelled"],
 	"paymentTerms": ["Net 7", "Net 15", "Net 30", "Net 45", "Net 90", "Net 120"],
