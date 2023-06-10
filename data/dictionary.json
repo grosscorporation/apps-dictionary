@@ -1,6 +1,20 @@
 {
-	"employmentStatus": ["temporary", "permanent", "indefinite", "terminated", "indefinite", "suspension"],
-	"customerTypes": ["commercial", "non-profit", "government", "parastatal", "individual", "other"],
+	"employmentStatus": [
+		"temporary",
+		"permanent",
+		"indefinite",
+		"terminated",
+		"indefinite",
+		"suspension"
+	],
+	"customerTypes": [
+		"commercial",
+		"non-profit",
+		"government",
+		"parastatal",
+		"individual",
+		"other"
+	],
 	"bankAccountType": [
 		"Cheque account",
 		"Transactional account",
@@ -10,19 +24,95 @@
 		"Resident and Non-Resident account",
 		"Other"
 	],
-	"dateFormat": ["yyyy-MM-dd", "MM/dd/yyyy", "d.m.y", "Y-m-d", "MM/DD/YYYY h:mm a"],
-	"contactType": ["employee", "supplier", "customer", "user"],
-	"expenseStatus": ["cancelled", "completed", "failed", "pending", "refunded"],
-	"salaryFrequency": ["daily", "weekly", "monthly", "annually", "onceoff"],
-	"leavePolicy": ["none", "annual", "payoff"],
-	"taxTypes": ["sales", "purchase", "payroll", "other"],
-	"expenseType": ["expense", "voucher", "reimburse"],
-	"gender": ["male", "female", "other"],
-	"documentSize": ["A5", "A4", "A3", "A2"],
-	"deliveryNoteStatus": ["delivered", "returned", "cancelled"],
-	"creditNoteStatus": ["successful", "cancelled"],
-	"invoiceStatus": ["draft", "sent", "partial", "paid", "unpaid", "overdue", "cancelled"],
-	"estimateStatus": ["draft", "sent"],
+	"relationship": [
+		"parent",
+		"grandparent",
+		"sibling",
+		"spouse",
+		"child",
+		"aunt",
+		"uncle",
+		"friend",
+		"cousin",
+		"colleague",
+		"other"
+	],
+	"dateFormat": [
+		"yyyy-MM-dd",
+		"MM/dd/yyyy",
+		"d.m.y",
+		"Y-m-d",
+		"MM/DD/YYYY h:mm a"
+	],
+	"contactType": [
+		"employee",
+		"supplier",
+		"customer",
+		"user"
+	],
+	"expenseStatus": [
+		"cancelled",
+		"completed",
+		"failed",
+		"pending",
+		"refunded"
+	],
+	"salaryFrequency": [
+		"daily",
+		"weekly",
+		"monthly",
+		"annually",
+		"onceoff"
+	],
+	"leavePolicy": [
+		"none",
+		"annual",
+		"payoff"
+	],
+	"taxTypes": [
+		"sales",
+		"purchase",
+		"payroll",
+		"other"
+	],
+	"expenseType": [
+		"expense",
+		"voucher",
+		"reimburse"
+	],
+	"gender": [
+		"male",
+		"female",
+		"other"
+	],
+	"documentSize": [
+		"A5",
+		"A4",
+		"A3",
+		"A2"
+	],
+	"deliveryNoteStatus": [
+		"delivered",
+		"returned",
+		"cancelled"
+	],
+	"creditNoteStatus": [
+		"successful",
+		"cancelled"
+	],
+	"invoiceStatus": [
+		"draft",
+		"sent",
+		"partial",
+		"paid",
+		"unpaid",
+		"overdue",
+		"cancelled"
+	],
+	"estimateStatus": [
+		"draft",
+		"sent"
+	],
 	"docTypes": [
 		"invoices",
 		"quotes",
@@ -36,7 +126,20 @@
 		"bookings",
 		"pos"
 	],
-	"months": ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"],
+	"months": [
+		"january",
+		"february",
+		"march",
+		"april",
+		"may",
+		"june",
+		"july",
+		"august",
+		"september",
+		"october",
+		"november",
+		"december"
+	],
 	"monthDays": [
 		"1",
 		"2",
@@ -147,12 +250,45 @@
 			"number": "12"
 		}
 	],
-	"orderStatus": ["draft", "onhold", "accepted", "cancelled"],
-	"paymentMethods": ["cash", "card", "cheque", "wireTransfer", "mobileMoney", "other"],
-	"deliveryMethods": ["split", "delivery", "counter", "download", "table", "virtual"],
-	"paymentStatus": ["processed", "cancelled"],
-	"paymentTerms": ["Net 7", "Net 15", "Net 30", "Net 45", "Net 90", "Net 120"],
-	"productTypes": ["product", "service", "virtual"],
+	"orderStatus": [
+		"draft",
+		"onhold",
+		"accepted",
+		"cancelled"
+	],
+	"paymentMethods": [
+		"cash",
+		"card",
+		"cheque",
+		"wireTransfer",
+		"mobileMoney",
+		"other"
+	],
+	"deliveryMethods": [
+		"split",
+		"delivery",
+		"counter",
+		"download",
+		"table",
+		"virtual"
+	],
+	"paymentStatus": [
+		"processed",
+		"cancelled"
+	],
+	"paymentTerms": [
+		"Net 7",
+		"Net 15",
+		"Net 30",
+		"Net 45",
+		"Net 90",
+		"Net 120"
+	],
+	"productTypes": [
+		"product",
+		"service",
+		"virtual"
+	],
 	"alphabet": [
 		"a",
 		"b",
@@ -181,11 +317,50 @@
 		"y",
 		"z"
 	],
-	"productUnits": ["Nos", "Hour", "Unit", "lbs", "Kg", "Metre", "MM"],
-	"quoteStatus": ["draft", "ordered"],
-	"recurringFrequency": ["weekly", "fortnightly", "monthly", "quarterly", "annually"],
-	"salutations": ["Mr", "Mrs", "Miss", "Dr", "Ms", "Prof", "Rev", "Lady", "Sir", "Capt", "Major", "Lt-col", "Col."],
-	"weekdays": ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"],
+	"productUnits": [
+		"Nos",
+		"Hour",
+		"Unit",
+		"lbs",
+		"Kg",
+		"Metre",
+		"MM"
+	],
+	"quoteStatus": [
+		"draft",
+		"ordered"
+	],
+	"recurringFrequency": [
+		"weekly",
+		"fortnightly",
+		"monthly",
+		"quarterly",
+		"annually"
+	],
+	"salutations": [
+		"Mr",
+		"Mrs",
+		"Miss",
+		"Dr",
+		"Ms",
+		"Prof",
+		"Rev",
+		"Lady",
+		"Sir",
+		"Capt",
+		"Major",
+		"Lt-col",
+		"Col."
+	],
+	"weekdays": [
+		"sunday",
+		"monday",
+		"tuesday",
+		"wednesday",
+		"thursday",
+		"friday",
+		"saturday"
+	],
 	"timezones": [
 		"Europe/Andorra",
 		"Asia/Dubai",
