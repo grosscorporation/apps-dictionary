@@ -1,4 +1,10 @@
 {
+	"messageSeverity": [
+		"low", "medium", "high", "critical"
+	],
+	"messageType": [
+		"transaction", "remittance", "security", "market", "system", "alert", "error", "information", "account", "news"
+	],
 	"employmentStatus": [
 		"temporary",
 		"permanent",
